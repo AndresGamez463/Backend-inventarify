@@ -3,7 +3,7 @@ const cors = require('cors');
 const mysql = require('mysql2');
 
 const app = express();
-const port = 3002; // Asegúrate de que este puerto no esté en uso
+const port = 3001; // Asegúrate de que este puerto no esté en uso
 
 app.use(cors());
 app.use(express.json());
